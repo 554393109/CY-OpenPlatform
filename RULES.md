@@ -26,6 +26,50 @@
 
 第二步，在stringA最后拼接上key得到stringSignTemp字符串（即stringA&key={KEY}），并对stringSignTemp进行MD5运算，再将得到的字符串所有字符转换为大写，得到sign值signValue。
 
+# 请求格式
+
+###### 请求示例
+
+> Javascript
+
+```js
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "http://{BaseURL}/OpenPlatform/Login",
+  "method": "POST",
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded",
+    "cache-control": "no-cache"
+  },
+  "data": {
+    "account": "aaa",
+    "pwd": "bbb"
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+```
+
+> Python
+
+```py
+import requests
+
+url = "http://{BaseURL}/OpenPlatform/login"
+
+payload = "account=aaa&pwd=bbb"
+headers = {
+    'content-type': "application/x-www-form-urlencoded",
+    'cache-control': "no-cache"
+    }
+
+response = requests.request("POST", url, data=payload, headers=headers)
+print(response.text)
+```
+
 # 返回格式
 
 | 参数名 | 类型 | 描述 |
