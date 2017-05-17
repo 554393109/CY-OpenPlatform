@@ -46,8 +46,7 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"user_id\":\"0E7F9B2369264FB18EED
-    D7BB31B404AF\",\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}"
+    "data": "{\"user_id\":\"0E7F9B2369264FB18EEDD7BB31B404AF\",\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}"
 }
 ```
 
