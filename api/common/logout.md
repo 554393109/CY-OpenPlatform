@@ -20,7 +20,7 @@
 
 **请求参数示例**
 
-> account=aaa&pwd=bbb
+> token=VmNaqQb2D9ZzCZ+2FrvW+A==
 
 **响应结果**
 
