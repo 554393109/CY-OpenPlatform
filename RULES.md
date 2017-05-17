@@ -93,7 +93,7 @@ print(response.text)
 ```js
 {
     "code": "10001",
-    "msg": "密码不能为空",
+    "msg": "密码不能为空"
 }
 ```
 
