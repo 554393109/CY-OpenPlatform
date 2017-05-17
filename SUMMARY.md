@@ -5,7 +5,7 @@
 ## API
 
 * [Common - 公共接口](api/common.md)
-  * Login
+  * [Login](api/common/login.md)
   * Logout
   * GetUserInfo
 
