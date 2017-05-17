@@ -5,5 +5,5 @@
 ## API
 
 * [登录](api/login.md)
-* Logout
+* [Logout](api/logout.md)
 
