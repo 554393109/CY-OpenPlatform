@@ -8,3 +8,5 @@
 * [登出](api/logout.md)
 * [获取用户信息](api/getuserinfo.md)
 
+## Common
+
