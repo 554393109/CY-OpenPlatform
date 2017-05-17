@@ -1,7 +1,6 @@
 # Summary
 
 * [概述](README.md)
-* [开发前须知](kai-fa-qian-xu-zhi.md)
 
 ## API
 
