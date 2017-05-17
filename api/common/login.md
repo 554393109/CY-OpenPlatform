@@ -29,7 +29,7 @@
 | :--- | :--- | :--- | :--- |
 | code | 是 | String | 状态码 |
 | msg | 是 | String | 返回信息 |
-| data | 否 | String | 响应数据 |
+| data | 否 | Object | 响应数据 |
 
 以下字段在code为10000的时候在data参数中返回
 
