@@ -6,6 +6,6 @@
 
 * [Common - 公共接口](api/common.md)
   * [Login](api/common/login.md)
-  * Logout
+  * [Logout](api/common/logout.md)
   * GetUserInfo
 
