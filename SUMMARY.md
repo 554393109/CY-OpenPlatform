@@ -6,5 +6,5 @@
 
 * [登录](api/login.md)
 * [登出](api/logout.md)
-* [GetUserInfo](api/getuserinfo.md)
+* [获取用户信息](api/getuserinfo.md)
 
