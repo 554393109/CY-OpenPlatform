@@ -8,9 +8,21 @@
 | 字符编码 | 统一采用UTF-8字符编码 |
 | 内容类型 | 统一采用x-www-form-urlencoded编码格式 |
 
-# 参数规定
+# 参数示例
 
+调用成功：
 
+```js
+{
+    "code": 10000,
+    "msg": "Success",
+    "data": {
+        "nick_name": "aaa",
+        "head_img": "http://pos.cn/data/upload/201704/f_1e228c017071b7290c357a22244616d0.jpg",
+        "token": "VmNaqQb2D9ZzCZ+2FrvW+A=="
+    }
+}
+```
 
 
 
