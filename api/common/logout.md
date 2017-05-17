@@ -34,9 +34,7 @@
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
-| nick\_name | 是 | String | 昵称 |
-| head\_img | 否 | String | 头像图片地址 |
-| token | 是 | String | Token令牌 |
+| redirect\_uri | 否 | String | 回调地址 |
 
 **响应结果示例**
 
@@ -44,7 +42,7 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}"
+    "data": "{\"redirect_uri\":\"http://{BaseURL}/Login\"}"
 }
 ```
 
