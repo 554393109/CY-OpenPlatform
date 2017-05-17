@@ -70,7 +70,7 @@ response = requests.request("POST", url, data=payload, headers=headers)
 print(response.text)
 ```
 
-# 返回格式
+# 响应格式
 
 | 参数名 | 类型 | 描述 |
 | :--- | :--- | :--- |
