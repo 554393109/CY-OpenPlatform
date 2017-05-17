@@ -7,24 +7,24 @@
 | 数据格式 | 提交和返回数据都为JSON格式（application/json） |
 | 字符编码 | 统一采用UTF-8字符编码 |
 | 内容类型 | 统一采用x-www-form-urlencoded编码格式 |
-| 签名算法 | MD5，后续会兼容SHA1、SHA256、HMAC等 |
-| 签名要求 | 接收数据需要校验签名 |
+| ~~签名算法~~ | ~~MD5，后续会兼容SHA1、SHA256、HMAC等~~ |
+| ~~签名要求~~ | ~~接收数据需要校验签名~~ |
 
-# 签名验证
+# ~~签名验证~~
 
-签名生成的通用步骤如下：
+~~签名生成的通用步骤如下：~~
 
-第一步，设所有传输的数据为集合M，将集合M内非空参数值的参数按照参数名ASCII码从小到大排序（字典序），使用URL键值对的格式（即key1=value1&key2=value2…）拼接成字符串stringA。
+~~第一步，设所有传输的数据为集合M，将集合M内非空参数值的参数按照参数名ASCII码从小到大排序（字典序），使用URL键值对的格式（即key1=value1&key2=value2…）拼接成字符串stringA。~~
 
-特别注意以下重要规则：
+~~特别注意以下重要规则：~~
 
-* 参数名ASCII码从小到大排序（字典序）；
-* 如果参数的值为空不参与签名；
-* 参数名区分大小写；
-* 验证调用返回或主动通知签名时，传送的sign参数不参与签名，将生成的签名与该sign值作校验。
-* 接口可能增加字段，验证签名时必须支持增加的扩展字段
+* ~~参数名ASCII码从小到大排序（字典序）；~~
+* ~~如果参数的值为空不参与签名；~~
+* ~~参数名区分大小写；~~
+* ~~验证调用返回或主动通知签名时，传送的sign参数不参与签名，将生成的签名与该sign值作校验。~~
+* ~~接口可能增加字段，验证签名时必须支持增加的扩展字段~~
 
-第二步，在stringA最后拼接上key得到stringSignTemp字符串（即stringA&key={KEY}），并对stringSignTemp进行MD5运算，再将得到的字符串所有字符转换为大写，得到sign值signValue。
+~~第二步，在stringA最后拼接上key得到stringSignTemp字符串（即stringA&key={KEY}），并对stringSignTemp进行MD5运算，再将得到的字符串所有字符转换为大写，得到sign值signValue。~~
 
 # 请求格式
 
@@ -77,7 +77,6 @@ print(response.text)
 | code | String | 状态码，10000-成功，10001-错误，10002-令牌无效 |
 | msg | String | 返回信息，若调用失败则为错误原因 |
 | data | String | 当调用成功或接口有具体数据响应，则有返回。 |
-| sign | String | 签名 |
 
 ###### 成功示例
 
@@ -85,8 +84,7 @@ print(response.text)
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}",
-    "sign": "D6503C70DAB7085E38C7A70798110889"
+    "data": "{\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}"
 }
 ```
 
@@ -96,7 +94,6 @@ print(response.text)
 {
     "code": "10001",
     "msg": "密码不能为空",
-    "sign": "BEAD90B01728016E0B4C8024300B644D"
 }
 ```
 
