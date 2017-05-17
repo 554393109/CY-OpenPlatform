@@ -1,7 +1,7 @@
 # Summary
 
 * [概述](README.md)
-* [Rules](RULES.md)
+* [接口规则](RULES.md)
 
 ## API
 
