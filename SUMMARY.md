@@ -1,6 +1,7 @@
 # Summary
 
 * [概述](README.md)
+* [Rules](RULES.md)
 
 ## API
 
