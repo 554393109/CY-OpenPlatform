@@ -41,11 +41,8 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": {
-        "nick_name": "aaa",
-        "head_img": "http://pos.cn/data/upload/201704/f_1e228c017071b7290c357a22244616d0.jpg",
-        "token": "VmNaqQb2D9ZzCZ+2FrvW+A=="
-    }
+    "data": "{\"nick_name\":\"aaa\",\"head_img\":\"http://wanzao2.b0.upaiyun.com/system/pictures/28046475/original/1440592182_500x500.png\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}",
+    "sign": "1751340A2A4E76B9D3FD78242454E155"
 }
 ```
 
