@@ -35,6 +35,7 @@
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
+| user\_id | 是 | String | 用户Id |
 | nick\_name | 是 | String | 昵称 |
 | head\_img | 否 | String | 头像图片地址 |
 | token | 是 | String | Token令牌 |
@@ -45,7 +46,7 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}"
+    "data": "{\"user_id\":\"0E7F9B2369264FB18EEDD7BB31B404AF\",\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}"
 }
 ```
 
