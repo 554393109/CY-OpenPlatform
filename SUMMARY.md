@@ -9,5 +9,5 @@
   * [Logout - 登出](api/common/logout.md)
   * [GetUserInfo - 获取用户信息](api/common/getuserinfo.md)
   * [MenuList - 获取系统菜单](api/common/menulist.md)
-* Wechat
+* [Wechat - 微信接口](api/wechat.md)
 
