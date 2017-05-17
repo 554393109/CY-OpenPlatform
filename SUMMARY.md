@@ -12,4 +12,5 @@
   * [MenuList - 获取系统菜单](api/common/menulist.md)
 * [Wechat - 微信接口](api/wechat.md)
   * [MpList - 获取公众号列表](api/wechat/mplist.md)
+* [StatusCode](api/statuscode.md)
 
