@@ -8,13 +8,13 @@
 | 字符编码 | 统一采用UTF-8字符编码 |
 | 内容类型 | 统一采用x-www-form-urlencoded编码格式 |
 | 签名算法 | MD5，后续会兼容SHA1、SHA256、HMAC等 |
-| 签名要求 | 请求和接收数据均需要校验签名 |
+| 签名要求 | 接收数据需要校验签名 |
 
 # 签名验证
 
 签名生成的通用步骤如下：
 
-第一步，设所有发送或者接收到的数据为集合M，将集合M内非空参数值的参数按照参数名ASCII码从小到大排序（字典序），使用URL键值对的格式（即key1=value1&key2=value2…）拼接成字符串stringA。
+第一步，设所有传输的数据为集合M，将集合M内非空参数值的参数按照参数名ASCII码从小到大排序（字典序），使用URL键值对的格式（即key1=value1&key2=value2…）拼接成字符串stringA。
 
 特别注意以下重要规则：
 
@@ -41,8 +41,8 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"nick_name\":\"aaa\",\"head_img\":\"http://wanzao2.b0.upaiyun.com/system/pictures/28046475/original/1440592182_500x500.png\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}",
-    "sign": "1751340A2A4E76B9D3FD78242454E155"
+    "data": "{\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}",
+    "sign": "D6503C70DAB7085E38C7A70798110889"
 }
 ```
 
