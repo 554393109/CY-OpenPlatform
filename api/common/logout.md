@@ -1,2 +1,52 @@
-登出
+# Logout - 登出
+
+**应用场景**
+
+该接口提供用户登出。
+
+###### 
+
+**接口链接**
+
+> [http://{BaseURL}/OpenPlatform/Logout](http://{BaseURL}/OpenPlatform/Login)
+
+###### 
+
+**请求参数**
+
+| 参数 | 必填 | 说明 |
+| :--- | :--- | :--- |
+| token | 是 | Token令牌 |
+
+**请求参数示例**
+
+> account=aaa&pwd=bbb
+
+**响应结果**
+
+| 字段名 | 必填 | 类型 | 说明 |
+| :--- | :--- | :--- | :--- |
+| code | 是 | String | 状态码 |
+| msg | 是 | String | 返回信息 |
+| data | 否 | String | 响应数据 |
+
+以下字段在code为10000的时候在data参数中返回
+
+| 字段名 | 必填 | 类型 | 说明 |
+| :--- | :--- | :--- | :--- |
+| nick\_name | 是 | String | 昵称 |
+| head\_img | 否 | String | 头像图片地址 |
+| token | 是 | String | Token令牌 |
+
+**响应结果示例**
+
+```js
+{
+    "code": "10000",
+    "msg": "Success",
+    "data": "{\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}"
+}
+```
+
+
 
