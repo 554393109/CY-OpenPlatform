@@ -21,7 +21,7 @@
 
 **请求参数示例**
 
-> token=VmNaqQb2D9ZzCZ+2FrvW+A==
+> redirect\_page=/mplist&token=VmNaqQb2D9ZzCZ+2FrvW+A==
 
 **响应结果**
 
