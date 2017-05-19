@@ -8,7 +8,7 @@
 
 **接口链接**
 
-> [http://{BaseURL}/OpenPlatform/GetPreAuthCodeLink](http://{BaseURL}/OpenPlatform/Login)
+> [http://{BaseURL}/OpenPlatform/GetPreAuthLink](http://{BaseURL}/OpenPlatform/Login)
 
 ###### 
 
