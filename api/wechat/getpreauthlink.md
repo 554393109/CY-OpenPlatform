@@ -43,7 +43,7 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"link\":\"https://mp.weixin.qq.com/cgi-bin/componentloginpage?component_appid=wx733b4b22562e3596&pre_auth_code=preauthcode%40%40%40zlMAMfVXtFdGHfXMCSCxjhqAKIv9e23Z31lBL1VndHsmk7bmvsoI6-248pjwtPPU&redirect_uri=http%3A%2F%2Fyinziqiang.oicp.net%2FOpenPlatform%2FOAuthCallback\"}"
+    "data": "{\"link\":\"https://mp.weixin.qq.com/cgi-bin/componentloginpage?component_appid=wx733b4b22562e3596&pre_auth_code=preauthcode%40%40%40NaOhkuLMmzmZwwQ0lMkzlABCKPKBd1TTAnbNZ1TIcat2zSat5_D9shcka2pXy1tV&redirect_uri=http%3A%2F%2Fyinziqiang.oicp.net%2FOpenPlatform%2FOAuthCallback%3Fredirect_page%3D%252fmplist\"}"
 }
 ```
 
