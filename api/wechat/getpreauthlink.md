@@ -17,6 +17,7 @@
 | 参数 | 必填 | 示例值 | 说明 |
 | :--- | :--- | :--- | :--- |
 | token | 是 | VmNaqQb2D9ZzCZ+2FrvW+A== | Token令牌 |
+| redirect\_page | 是 | /mplist | 授权成功回调页面 |
 
 **请求参数示例**
 
