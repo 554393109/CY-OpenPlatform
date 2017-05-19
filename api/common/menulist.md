@@ -22,8 +22,6 @@
 
 > token=VmNaqQb2D9ZzCZ+2FrvW+A==
 
-
-
 **响应结果**
 
 | 字段名 | 必填 | 类型 | 说明 |
@@ -41,15 +39,13 @@
 | link | 否 | String | 地址 |
 | sub | 否 | Array | 子菜单，结构相同 |
 
-
-
 **响应结果示例**
 
 ```js
 {
     "code": "10000",
     "msg": "Success",
-    "data": "[{\"menu\":\"一级菜单\",\"link\":\"menu_list\"},{\"menu\":\"一级菜单2\",\"ico\":\"ico_mp\",\"sub\":[{\"menu\":\"二级菜单2-1\",\"link\":\"sub_menu_list-1\"},{\"menu\":\"二级菜单2-2\",\"link\":\"sub_menu_list-2\"}]}]"
+    "data": "[{\"menu\":\"一级菜单\",\"link\":\"mplist\"},{\"menu\":\"一级菜单2\",\"ico\":\"ico_mp\",\"sub\":[{\"menu\":\"二级菜单2-1\",\"link\":\"sub_mplist-1\"},{\"menu\":\"二级菜单2-2\",\"link\":\"sub_mplist-2\"}]}]"
 }
 ```
 
