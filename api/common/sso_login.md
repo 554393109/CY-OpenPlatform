@@ -33,9 +33,7 @@
 
 **响应结果示例**
 
-```js
-Cysoft_OpenPlatform_Token=d7550b92-ec5b-4b63-b8f7-2a8528bf4d5b
-```
+> Cysoft\_OpenPlatform\_Token=d7550b92-ec5b-4b63-b8f7-2a8528bf4d5b
 
 
 
