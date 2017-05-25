@@ -10,7 +10,9 @@
 
 > [http://{BaseURL}/OpenPlatform/MpList](http://{BaseURL}/OpenPlatform/Login)
 
-###### 
+**提交方式**
+
+> POST
 
 **请求参数**
 

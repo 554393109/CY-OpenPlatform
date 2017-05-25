@@ -2,7 +2,7 @@
 
 **应用场景**
 
-该接口提供用户验证。
+该接口提供用户验证，从各业务系统进入开放平台需要带上参数；不带参数时跳转用户系统进行统一登录。
 
 ###### 
 
@@ -18,38 +18,23 @@
 
 | 参数 | 必填 | 示例值 | 说明 |
 | :--- | :--- | :--- | :--- |
-| token | 是 | d7550b92-ec5b-4b63-b8f7-2a8528bf4d5b | 帐号 |
-| sign | 是 | d5a4145d8dbdb0e5e28cbfafc35c22c3 | 密码 |
+| token | 否 | d7550b92-ec5b-4b63-b8f7-2a8528bf4d5b | Token令牌 |
+| sign | 否 | d5a4145d8dbdb0e5e28cbfafc35c22c3 | 签名（Token存在时必须传入sign才能通过验证，否则会跳转用户系统进行统一登录） |
 
 **请求参数示例**
 
 > token=d7550b92-ec5b-4b63-b8f7-2a8528bf4d5b&sign=d5a4145d8dbdb0e5e28cbfafc35c22c3
 
-**响应结果**
+**响应结果（Cookie）**
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
-| code | 是 | String | 状态码 |
-| msg | 是 | String | 返回信息 |
-| data | 否 | Object | 响应数据 |
-
-以下字段在code为10000的时候在data参数中返回
-
-| 字段名 | 必填 | 类型 | 说明 |
-| :--- | :--- | :--- | :--- |
-| user\_id | 是 | String | 用户Id |
-| nick\_name | 是 | String | 昵称 |
-| head\_img | 否 | String | 头像图片地址 |
-| token | 是 | String | Token令牌 |
+| Cysoft\_OpenPlatform\_Token | 是 | String | Token |
 
 **响应结果示例**
 
 ```js
-{
-    "code": "10000",
-    "msg": "Success",
-    "data": "{\"user_id\":\"0E7F9B2369264FB18EEDD7BB31B404AF\",\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}"
-}
+Cysoft_OpenPlatform_Token=d7550b92-ec5b-4b63-b8f7-2a8528bf4d5b
 ```
 
 
