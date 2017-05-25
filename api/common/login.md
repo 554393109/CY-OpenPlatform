@@ -19,13 +19,9 @@
 | account | 是 | aaa | 帐号 |
 | pwd | 是 | bbb | 密码 |
 
-
-
 **请求参数示例**
 
 > account=aaa&pwd=bbb
-
-
 
 **响应结果**
 
@@ -43,8 +39,6 @@
 | nick\_name | 是 | String | 昵称 |
 | head\_img | 否 | String | 头像图片地址 |
 | token | 是 | String | Token令牌 |
-
-
 
 **响应结果示例**
 
