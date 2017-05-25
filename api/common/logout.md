@@ -10,7 +10,9 @@
 
 > [http://{BaseURL}/OpenPlatform/Logout](http://{BaseURL}/OpenPlatform/Login)
 
-###### 
+**提交方式**
+
+> POST
 
 **请求参数**
 
@@ -18,13 +20,9 @@
 | :--- | :--- | :--- | :--- |
 | token | 是 | VmNaqQb2D9ZzCZ+2FrvW+A== | Token令牌 |
 
-
-
 **请求参数示例**
 
 > token=VmNaqQb2D9ZzCZ+2FrvW+A==
-
-
 
 **响应结果**
 
@@ -39,8 +37,6 @@
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
 | redirect\_uri | 否 | String | 回调地址 |
-
-
 
 **响应结果示例**
 
