@@ -6,8 +6,7 @@
 ## API
 
 * [Common - 公共接口](api/common.md)
-  * [SSO\_Login](api/common/sso_login.md)
-  * [Login - 登录](api/common/login.md)
+  * [SSO\_Login - 单点登录入口](api/common/sso_login.md)
   * [Logout - 登出](api/common/logout.md)
   * [GetUserInfo - 获取用户信息](api/common/getuserinfo.md)
   * [MenuList - 获取系统菜单](api/common/menulist.md)
