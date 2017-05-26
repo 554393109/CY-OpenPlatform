@@ -47,9 +47,9 @@
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
-| authorizer\_appid | 是 | String | 公众号AppId |
+| appid | 是 | String | 公众号AppId |
 | nick\_name | 是 | Int | 公众号昵称 |
-| user\_name | 是 | String | 公众号原始ID |
+| user\_name | 是 | String | 公众号原始ID，如：gh\_b86f76c4642e |
 | alias | 是 | String | 公众号所设置的微信号，可能为空 |
 | head\_img | 是 | String | 公众号头像图片URL |
 | qrcode\_url | 是 | String | 公众号二维码图片URL |
@@ -65,7 +65,7 @@
     "pages": 1,
     "rows": [
         {
-            "authorizer_appid": "wx4da448cd29927cb7",
+            "appid": "wx4da448cd29927cb7",
             "nick_name": "广州超赢",
             "user_name": "gh_b76f77c4672e",
             "alias": "chaoyingsoft",
