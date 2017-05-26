@@ -36,9 +36,10 @@
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
-| user\_id | 是 | String | 用户Id |
-| nick\_name | 是 | String | 昵称 |
-| head\_img | 否 | String | 头像图片地址 |
+| ID | 是 | Long | 用户Id |
+| Name | 是 | String | 姓名 |
+| CompanyName | 是 | String | 公司名称 |
+| Phone | 是 | String | 手机号码 |
 
 **响应结果示例**
 
