@@ -47,7 +47,7 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"user_id\":\"0E7F9B2369264FB18EEDD7BB31B404AF\",\"nick_name\":\"aaa\"}"
+    "data": "{\"Name\":\"YZQ\",\"CompanyName\":\"YZQ-公司名称\",\"ID\":3308444987384064,\"Phone\":\"17076616006\"}"
 }
 ```
 
