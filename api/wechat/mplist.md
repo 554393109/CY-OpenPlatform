@@ -20,7 +20,7 @@
 | :--- | :--- | :--- | :--- |
 | page\_index | 是 | 1 | 当前页，从1开始 |
 | page\_size | 是 | 10 | 每页条数，取值范围10~100 |
-| sort | 否 | desc | 排序规则，默认按添加时间降序 |
+| sort | 否 | desc | 排序规则，默认按添加时间降序（desc或asc） |
 | token | 是 | VmNaqQb2D9ZzCZ+2FrvW+A== | Token令牌 |
 
 **请求参数示例**
