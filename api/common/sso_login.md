@@ -18,12 +18,12 @@
 
 | 参数 | 必填 | 示例值 | 说明 |
 | :--- | :--- | :--- | :--- |
-| token | 否 | d7550b92-ec5b-4b63-b8f7-2a8528bf4d5b | Token令牌 |
+| token | 否 | 00000000-0000-0000-0000-000000000000 | Token令牌 |
 | sign | 否 | d5a4145d8dbdb0e5e28cbfafc35c22c3 | 签名（Token存在时必须传入sign才能通过验证，否则会跳转用户系统进行统一登录） |
 
 **请求参数示例**
 
-> token=d7550b92-ec5b-4b63-b8f7-2a8528bf4d5b&sign=d5a4145d8dbdb0e5e28cbfafc35c22c3
+> token=00000000-0000-0000-0000-000000000000&sign=d5a4145d8dbdb0e5e28cbfafc35c22c3
 
 **响应结果（Cookie）**
 
@@ -33,7 +33,7 @@
 
 **响应结果示例**
 
-> Cysoft\_OpenPlatform\_Token=d7550b92-ec5b-4b63-b8f7-2a8528bf4d5b
+> Cysoft\_OpenPlatform\_Token=00000000-0000-0000-0000-000000000000
 
 
 

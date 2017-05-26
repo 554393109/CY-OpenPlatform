@@ -18,12 +18,12 @@
 
 | 参数 | 必填 | 示例值 | 说明 |
 | :--- | :--- | :--- | :--- |
-| token | 是 | VmNaqQb2D9ZzCZ+2FrvW+A== | Token令牌 |
+| token | 是 | 00000000-0000-0000-0000-000000000000 | Token令牌 |
 | redirect\_page | 是 | /mplist | 授权成功回调页面 |
 
 **请求参数示例**
 
-> redirect\_page=/mplist&token=VmNaqQb2D9ZzCZ+2FrvW+A==
+> redirect\_page=/mplist&token=00000000-0000-0000-0000-000000000000
 
 **响应结果**
 
