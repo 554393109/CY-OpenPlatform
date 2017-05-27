@@ -32,12 +32,12 @@
 | msg | 是 | String | 返回信息 |
 | data | 否 | Array | 响应数据 |
 
-以下字段在code为10000的时候在data参数中返回
+以下字段在code为10000的时候在data字段中返回
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
 | menu | 是 | String | 菜单名称 |
-| ico | 否 | String | 菜单图标CSS名 |
+| ico | 否 | String | 菜单图标CSS类名 |
 | link | 否 | String | 地址 |
 | sub | 否 | Array | 子菜单，结构相同 |
 
