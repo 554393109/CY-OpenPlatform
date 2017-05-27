@@ -83,7 +83,7 @@ print(response.text)
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"nick_name\":\"aaa\",\"token\":\"VmNaqQb2D9ZzCZ+2FrvW+A==\"}"
+    "data": "{\"Name\":\"姓名\",\"CompanyName\":\"公司名称\",\"ID\":3308444987384064,\"Phone\":\"13800138000\"}"
 }
 ```
 
@@ -92,7 +92,7 @@ print(response.text)
 ```js
 {
     "code": "10001",
-    "msg": "密码不能为空"
+    "msg": "用户未登录"
 }
 ```
 
