@@ -31,16 +31,15 @@
 | :--- | :--- | :--- | :--- |
 | code | 是 | String | 状态码 |
 | msg | 是 | String | 返回信息 |
-| data | 否 | String | 响应数据 |
+| data | 否 | Object | 响应数据 |
 
 以下字段在code为10000的时候在data参数中返回
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
-| ID | 是 | Long | 用户Id |
-| Name | 是 | String | 姓名 |
-| CompanyName | 是 | String | 公司名称 |
-| Phone | 是 | String | 手机号码 |
+| url | 是 | String | 用户Id |
+| type | 是 | String | 姓名 |
+| name | 是 | String | 公司名称 |
 
 **响应结果示例**
 
