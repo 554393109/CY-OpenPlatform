@@ -7,7 +7,6 @@
 
 * [Common - 公共接口](api/common.md)
   * [SSO\_Login - 单点登录入口](api/common/sso_login.md)
-  * [Logout - 登出](api/common/logout.md)
   * [GetUserInfo - 获取用户信息](api/common/getuserinfo.md)
   * [MenuList - 获取系统菜单](api/common/menulist.md)
 * [Wechat - 微信接口](api/wechat.md)
