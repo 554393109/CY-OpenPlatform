@@ -62,7 +62,7 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"Name\":\"YZQ\",\"CompanyName\":\"YZQ-公司名称\",\"ID\":3308444987384064,\"Phone\":\"17076616006\"}"
+    "data": "{\"button\":[{\"url\":\"https://www.baidu.com/\",\"type\":\"view\",\"name\":\"一级菜单 1\"},{\"sub_button\":[{\"url\":\"https://www.baidu.com/\",\"type\":\"view\",\"name\":\"二级菜单 2-1\"},{\"url\":\"https://www.baidu.com/\",\"type\":\"view\",\"name\":\"二级菜单 2-2\"},{\"url\":\"https://www.baidu.com/\",\"type\":\"view\",\"name\":\"二级菜单 2-3\"}],\"name\":\"一级菜单 2\"},{\"sub_button\":[{\"url\":\"https://www.baidu.com/\",\"type\":\"view\",\"name\":\"二级菜单 3-1\"},{\"url\":\"https://www.baidu.com/\",\"type\":\"view\",\"name\":\"二级菜单 3-2\"},{\"url\":\"https://www.baidu.com/\",\"type\":\"view\",\"name\":\"二级菜单 3-3\"},{\"url\":\"https://www.baidu.com/\",\"type\":\"view\",\"name\":\"二级菜单 3-4\"}],\"name\":\"一级菜单 3\"}]}"
 }
 ```
 
