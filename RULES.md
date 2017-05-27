@@ -36,15 +36,14 @@
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "http://{BaseURL}/OpenPlatform/Login",
+  "url": "http://{BaseURL}/OpenPlatform/GetUserInfo",
   "method": "POST",
   "headers": {
     "content-type": "application/x-www-form-urlencoded",
     "cache-control": "no-cache"
   },
   "data": {
-    "account": "aaa",
-    "pwd": "bbb"
+    "token": "00000000-0000-0000-0000-000000000000"
   }
 }
 
@@ -58,9 +57,9 @@ $.ajax(settings).done(function (response) {
 ```py
 import requests
 
-url = "http://{BaseURL}/OpenPlatform/login"
+url = "http://{BaseURL}/OpenPlatform/GetUserInfo"
 
-payload = "account=aaa&pwd=bbb"
+payload = "token=00000000-0000-0000-0000-000000000000"
 headers = {
     'content-type': "application/x-www-form-urlencoded",
     'cache-control': "no-cache"
