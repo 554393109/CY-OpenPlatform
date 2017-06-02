@@ -1,14 +1,14 @@
-# EditMpMenu - 修改公众号自定义菜单
+# UnbindMP - 解绑公众号
 
 **应用场景**
 
-该接口提供当前用户已授权公众号自定义菜单修改功能。
+该接口提供当前用户已授权公众号解绑功能。
 
 ###### 
 
 **接口链接**
 
-> [http://{BaseURL}/OpenPlatform/EditMpMenu](http://{BaseURL}/OpenPlatform/Login)
+> [http://{BaseURL}/OpenPlatform/UnbindMp](http://{BaseURL}/OpenPlatform/Login)
 
 **提交方式**
 
@@ -20,11 +20,10 @@
 | :--- | :--- | :--- | :--- |
 | token | 是 | 00000000-0000-0000-0000-000000000000 | Token令牌 |
 | appid | 是 | wx4da448cd29927cb7 | 公众号AppId |
-| menu | 是 | {"button":\[{"url":"[https://www.baidu.com/","type":"view","name":"一级菜单](https://www.baidu.com/","type":"view","name":"一级菜单) 1"},{"sub\_button":\[{"url":"[https://www.baidu.com/","type":"view","name":"二级菜单](https://www.baidu.com/","type":"view","name":"二级菜单) 2-1"}\],"name":"一级菜单 2"}\]} | 自定义菜单json字符串 |
 
 **请求参数示例**
 
-> appid=wx4da448cd29927cb7&menu={"button":\[{"url":"[https://www.baidu.com/","type":"view","name":"一级菜单](https://www.baidu.com/","type":"view","name":"一级菜单) 1"},{"sub\_button":\[{"url":"[https://www.baidu.com/","type":"view","name":"二级菜单](https://www.baidu.com/","type":"view","name":"二级菜单) 2-1"}\],"name":"一级菜单 2"}\]}&token=00000000-0000-0000-0000-000000000000
+> appid=wx4da448cd29927cb7&token=00000000-0000-0000-0000-000000000000
 
 **响应结果**
 
