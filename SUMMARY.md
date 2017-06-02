@@ -14,5 +14,6 @@
   * [MpList - 获取公众号列表](api/wechat/mplist.md)
   * [GetMpMenu - 获取公众号自定菜单](api/wechat/getmpmenu.md)
   * [EditMpMenu - 修改公众号自定义菜单](api/wechat/editmpmenu.md)
+  * [UnbindMP](api/wechat/unbindmp.md)
 * [StatusCode - 状态码](api/statuscode.md)
 
