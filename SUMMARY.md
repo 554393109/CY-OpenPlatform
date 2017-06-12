@@ -15,5 +15,6 @@
   * [GetMpMenu - 获取公众号自定菜单](api/wechat/getmpmenu.md)
   * [EditMpMenu - 修改公众号自定义菜单](api/wechat/editmpmenu.md)
   * [UnbindMP - 解绑公众号](api/wechat/unbindmp.md)
+  * [GetAccessToken - 获取公众号AccessToken](api/wechat/getaccesstoken.md)
 * [StatusCode - 状态码](api/statuscode.md)
 
