@@ -39,7 +39,8 @@ var settings = {
   "method": "POST",
   "headers": {
     "content-type": "application/x-www-form-urlencoded",
-    "cache-control": "no-cache"
+    "cache-control": "no-cache",
+    "X-Requested-With":"XMLHttpRequest",
   },
   "data": {
     "token": "00000000-0000-0000-0000-000000000000"
@@ -61,7 +62,8 @@ url = "http://{BaseURL}/OpenPlatform/GetUserInfo"
 payload = "token=00000000-0000-0000-0000-000000000000"
 headers = {
     'content-type': "application/x-www-form-urlencoded",
-    'cache-control': "no-cache"
+    'cache-control': "no-cache",
+    'X-Requested-With': "XMLHttpRequest",
     }
 
 response = requests.request("POST", url, data=payload, headers=headers)
