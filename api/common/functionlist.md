@@ -41,7 +41,7 @@
 | url | 是 | String | 地址 |
 | parameters | 否 | Array | 功能参数 |
 
-以下字段在params有数据时，在params参数中返回
+以下字段在parameters有数据时，在parameters参数中返回
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
@@ -54,7 +54,7 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "[{\"name\":\"微商城\",\"code\":\"wxshop\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}\",\"parameters\":[{\"param_name\":\"超赢用户编号\",\"param_code\":\"id_user\"}]},{\"name\":\"进货下单\",\"code\":\"wxorder\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}&id_xtx={id_xtx}\",\"parameters\":[{\"param_name\":\"超赢用户编号\",\"param_code\":\"id_user\"},{\"param_name\":\"小推侠编号\",\"param_code\":\"id_xtx\"}]}]"
+    "data": "[{\"name\":\"微商城\",\"code\":\"wxshop\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}\",\"parameters\":[{\"param_name\":\"用户编号\",\"param_code\":\"id_user\"}]},{\"name\":\"进货下单\",\"code\":\"wxorder\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}&id_xtx={id_xtx}\",\"parameters\":[{\"param_name\":\"用户编号\",\"param_code\":\"id_user\"},{\"param_name\":\"小推侠编号\",\"param_code\":\"id_xtx\"}]}]"
 }
 ```
 
