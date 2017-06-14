@@ -36,8 +36,8 @@
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
-| name | 是 | String | 功能名称 |
 | code | 是 | String | 功能编码 |
+| name | 是 | String | 功能名称 |
 | url | 是 | String | 地址 |
 | parameters | 否 | Array | 功能参数 |
 
@@ -45,8 +45,8 @@
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
-| param\_name | 是 | String | 参数名称 |
 | param\_code | 是 | String | 参数编码 |
+| param\_name | 是 | String | 参数名称 |
 
 **响应结果示例**
 
