@@ -39,7 +39,7 @@
 | name | 是 | String | 功能名称 |
 | code | 是 | String | 功能编码 |
 | url | 是 | String | 地址 |
-| params | 否 | Array | 功能参数 |
+| parameters | 否 | Array | 功能参数 |
 
 以下字段在params有数据时，在params参数中返回
 
@@ -51,7 +51,11 @@
 **响应结果示例**
 
 ```js
-
+{
+    "code": "10000",
+    "msg": "Success",
+    "data": "[{\"name\":\"微商城\",\"code\":\"wxshop\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}\",\"parameters\":[{\"param_name\":\"超赢用户编号\",\"param_code\":\"id_user\"}]},{\"name\":\"进货下单\",\"code\":\"wxorder\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}&id_xtx={id_xtx}\",\"parameters\":[{\"param_name\":\"超赢用户编号\",\"param_code\":\"id_user\"},{\"param_name\":\"小推侠编号\",\"param_code\":\"id_xtx\"}]}]"
+}
 ```
 
 
