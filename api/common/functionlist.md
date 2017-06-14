@@ -36,19 +36,22 @@
 
 | 字段名 | 必填 | 类型 | 说明 |
 | :--- | :--- | :--- | :--- |
-| menu | 是 | String | 菜单名称 |
-| ico | 否 | String | 菜单图标CSS类名 |
-| link | 否 | String | 地址 |
-| sub | 否 | Array | 子菜单，结构相同 |
+| name | 是 | String | 功能名称 |
+| code | 是 | String | 功能编码 |
+| url | 是 | String | 地址 |
+| params | 否 | Array | 功能参数 |
+
+以下字段在params有数据时，在params参数中返回
+
+| 字段名 | 必填 | 类型 | 说明 |
+| :--- | :--- | :--- | :--- |
+| param\_name | 是 | String | 参数名称 |
+| param\_code | 是 | String | 参数编码 |
 
 **响应结果示例**
 
 ```js
-{
-    "code": "10000",
-    "msg": "Success",
-    "data": "[{\"menu\":\"一级菜单\",\"link\":\"mplist\"},{\"menu\":\"一级菜单2\",\"ico\":\"ico_mp\",\"sub\":[{\"menu\":\"二级菜单2-1\",\"link\":\"sub_mplist-1\"},{\"menu\":\"二级菜单2-2\",\"link\":\"sub_mplist-2\"}]}]"
-}
+
 ```
 
 
