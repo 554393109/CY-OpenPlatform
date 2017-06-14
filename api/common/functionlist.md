@@ -54,7 +54,7 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "[{\"name\":\"微商城\",\"code\":\"wxshop\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}\",\"parameters\":[{\"param_name\":\"用户编号\",\"param_code\":\"id_user\"}]},{\"name\":\"进货下单\",\"code\":\"wxorder\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}&id_xtx={id_xtx}\",\"parameters\":[{\"param_name\":\"用户编号\",\"param_code\":\"id_user\"},{\"param_name\":\"小推侠编号\",\"param_code\":\"id_xtx\"}]}]"
+    "data": "[{\"code\":\"wxorder\",\"name\":\"进货下单\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}&id_xtx={id_xtx}\",\"parameters\":[{\"param_code\":\"id_user\",\"param_name\":\"用户编号\"},{\"param_code\":\"id_xtx\",\"param_name\":\"小推侠编号\"}]},{\"code\":\"wxshop\",\"name\":\"微商城\",\"url\":\"http://www.dhy.hk/MobileOrderGoods/List?id_user={id_user}\",\"parameters\":[{\"param_code\":\"id_user\",\"param_name\":\"用户编号\"}]}]"
 }
 ```
 
