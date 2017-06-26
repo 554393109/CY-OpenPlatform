@@ -46,7 +46,7 @@
 {
     "code": "10000",
     "msg": "Success",
-    "data": "{\"component_appid\":\"wx733b4b22562e3596\",\"component_access_token\":\"h4AON8jEElwMJ0PeOBC3HjMAvlGwyJrY3CjcaBVOeOGIBoB7Zro6G3PrkSYQmcdUU_IWBDh0K1yhb3yMV7DEWhUlLacdhVWd-BVJgynS4Djql3OuZva7DdOYj75f5-3WOBXgAEAERN\"}"
+    "data": "{\"component_appid\":\"wx733b4b22562e3596\",\"component_access_token\":\"h4AON8jEElwMJ0PeOBC3HjMAvlGwyJrY3CjcaBVOeOGIBoB7Zro6G3PrkSYQmcdUU_IWBDh0K1yhb3yMV7DEWhUlLacdhVWd-BVJgynS4Djql3OuZva7DdOYj75f5-3WOBXgAEAERM\"}"
 }
 ```
 
