@@ -1,0 +1,640 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>MpList - 获取公众号列表 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="getmpmenu.html" />
+    
+    
+    <link rel="prev" href="getpreauthlink.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../RULES.html">
+            
+                <a href="../../RULES.html">
+            
+                    
+                    接口规则
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">API</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../common.html">
+            
+                <a href="../common.html">
+            
+                    
+                    Common - 公共接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../common/sso_login.html">
+            
+                <a href="../common/sso_login.html">
+            
+                    
+                    SSO_Login - 单点登录入口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../common/getuserinfo.html">
+            
+                <a href="../common/getuserinfo.html">
+            
+                    
+                    GetUserInfo - 获取用户信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../common/menulist.html">
+            
+                <a href="../common/menulist.html">
+            
+                    
+                    MenuList - 获取系统菜单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../common/functionlist.html">
+            
+                <a href="../common/functionlist.html">
+            
+                    
+                    FunctionList - 获取菜单功能列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../wechat.html">
+            
+                <a href="../wechat.html">
+            
+                    
+                    Wechat - 微信接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="getpreauthlink.html">
+            
+                <a href="getpreauthlink.html">
+            
+                    
+                    GetPreAuthLink - 获取预授权地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.2" data-path="mplist.html">
+            
+                <a href="mplist.html">
+            
+                    
+                    MpList - 获取公众号列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="getmpmenu.html">
+            
+                <a href="getmpmenu.html">
+            
+                    
+                    GetMpMenu - 获取公众号自定菜单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="editmpmenu.html">
+            
+                <a href="editmpmenu.html">
+            
+                    
+                    EditMpMenu - 修改公众号自定义菜单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="unbindmp.html">
+            
+                <a href="unbindmp.html">
+            
+                    
+                    UnbindMP - 解绑公众号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="getaccesstoken.html">
+            
+                <a href="getaccesstoken.html">
+            
+                    
+                    GetAccessToken - 获取公众号AccessToken
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="getcomponentinfo.html">
+            
+                <a href="getcomponentinfo.html">
+            
+                    
+                    GetComponentInfo - 获取开放平台授权信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../statuscode.html">
+            
+                <a href="../statuscode.html">
+            
+                    
+                    StatusCode - 状态码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >MpList - 获取公众号列表</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="mplist---&#x83B7;&#x53D6;&#x516C;&#x4F17;&#x53F7;&#x5217;&#x8868;">MpList - &#x83B7;&#x53D6;&#x516C;&#x4F17;&#x53F7;&#x5217;&#x8868;</h1>
+<p><strong>&#x5E94;&#x7528;&#x573A;&#x666F;</strong></p>
+<p>&#x8BE5;&#x63A5;&#x53E3;&#x63D0;&#x4F9B;&#x5F53;&#x524D;&#x7528;&#x6237;&#x5DF2;&#x6388;&#x6743;&#x516C;&#x4F17;&#x53F7;&#x83B7;&#x53D6;&#x529F;&#x80FD;&#x3002;</p>
+<h6 id=""> </h6>
+<p><strong>&#x63A5;&#x53E3;&#x94FE;&#x63A5;</strong></p>
+<blockquote>
+<p><a href="http://{BaseURL}/OpenPlatform/Login" target="_blank">http://{BaseURL}/OpenPlatform/MpList</a></p>
+</blockquote>
+<p><strong>&#x63D0;&#x4EA4;&#x65B9;&#x5F0F;</strong></p>
+<blockquote>
+<p>POST</p>
+</blockquote>
+<p><strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:left">&#x5FC5;&#x586B;</th>
+<th style="text-align:left">&#x793A;&#x4F8B;&#x503C;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">token</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">00000000-0000-0000-0000-000000000000</td>
+<td style="text-align:left">Token&#x4EE4;&#x724C;</td>
+</tr>
+<tr>
+<td style="text-align:left">page_index</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">1</td>
+<td style="text-align:left">&#x5F53;&#x524D;&#x9875;&#xFF0C;&#x53D6;&#x503C;&#x8303;&#x56F4;1~N</td>
+</tr>
+<tr>
+<td style="text-align:left">page_size</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">&#x6BCF;&#x9875;&#x6761;&#x6570;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#xFF1A;10&#xFF0C;&#x53D6;&#x503C;&#x8303;&#x56F4;1~100</td>
+</tr>
+<tr>
+<td style="text-align:left">sort</td>
+<td style="text-align:left">&#x5426;</td>
+<td style="text-align:left">desc</td>
+<td style="text-align:left">&#x6392;&#x5E8F;&#x89C4;&#x5219;&#xFF0C;&#x6309;&#x6DFB;&#x52A0;&#x65F6;&#x95F4;&#x6392;&#x5E8F;&#xFF0C;&#x9ED8;&#x8BA4;desc&#x964D;&#x5E8F;&#xFF0C;&#x53D6;&#x503C;desc&#x3001;asc</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#x793A;&#x4F8B;</strong></p>
+<blockquote>
+<p>page_index=1&amp;page_size=10&amp;token=00000000-0000-0000-0000-000000000000</p>
+</blockquote>
+<p><strong>&#x54CD;&#x5E94;&#x7ED3;&#x679C;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:left">&#x5FC5;&#x586B;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">code</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">&#x72B6;&#x6001;&#x7801;</td>
+</tr>
+<tr>
+<td style="text-align:left">msg</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">&#x8FD4;&#x56DE;&#x4FE1;&#x606F;</td>
+</tr>
+<tr>
+<td style="text-align:left">data</td>
+<td style="text-align:left">&#x5426;</td>
+<td style="text-align:left">Object</td>
+<td style="text-align:left">&#x54CD;&#x5E94;&#x6570;&#x636E;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4EE5;&#x4E0B;&#x5B57;&#x6BB5;&#x5728;code&#x4E3A;10000&#x65F6;&#xFF0C;&#x5728;data&#x5B57;&#x6BB5;&#x4E2D;&#x8FD4;&#x56DE;</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:left">&#x5FC5;&#x586B;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">records</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">Int</td>
+<td style="text-align:left">&#x603B;&#x8BB0;&#x5F55;&#x6570;&#xFF0C;&#x82E5;&#x6CA1;&#x6709;&#x6570;&#x636E;&#x5219;&#x4E3A;0</td>
+</tr>
+<tr>
+<td style="text-align:left">pages</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">Int</td>
+<td style="text-align:left">&#x603B;&#x9875;&#x6570;&#xFF0C;&#x82E5;&#x6CA1;&#x6709;&#x6570;&#x636E;&#x5219;&#x4E3A;0</td>
+</tr>
+<tr>
+<td style="text-align:left">rows</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">Array</td>
+<td style="text-align:left">&#x5217;&#x8868;&#x8BB0;&#x5F55;&#xFF0C;&#x82E5;&#x6CA1;&#x6709;&#x6570;&#x636E;&#x5219;&#x4E3A;&#x7A7A;&#x6570;&#x7EC4;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4EE5;&#x4E0B;&#x5B57;&#x6BB5;&#x5728;rows&#x6709;&#x6570;&#x636E;&#x65F6;&#xFF0C;&#x5728;rows&#x5B57;&#x6BB5;&#x4E2D;&#x8FD4;&#x56DE;</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:left">&#x5FC5;&#x586B;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">appid</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">&#x516C;&#x4F17;&#x53F7;AppId</td>
+</tr>
+<tr>
+<td style="text-align:left">nick_name</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">Int</td>
+<td style="text-align:left">&#x516C;&#x4F17;&#x53F7;&#x6635;&#x79F0;</td>
+</tr>
+<tr>
+<td style="text-align:left">user_name</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">&#x516C;&#x4F17;&#x53F7;&#x539F;&#x59CB;ID&#xFF0C;&#x5982;&#xFF1A;gh_b86f76c4642e</td>
+</tr>
+<tr>
+<td style="text-align:left">alias</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">&#x516C;&#x4F17;&#x53F7;&#x6240;&#x8BBE;&#x7F6E;&#x7684;&#x5FAE;&#x4FE1;&#x53F7;&#xFF0C;&#x53EF;&#x80FD;&#x4E3A;&#x7A7A;</td>
+</tr>
+<tr>
+<td style="text-align:left">head_img</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">&#x516C;&#x4F17;&#x53F7;&#x5934;&#x50CF;&#x56FE;&#x7247;URL</td>
+</tr>
+<tr>
+<td style="text-align:left">qrcode_url</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">&#x516C;&#x4F17;&#x53F7;&#x4E8C;&#x7EF4;&#x7801;&#x56FE;&#x7247;URL</td>
+</tr>
+<tr>
+<td style="text-align:left">service_type_info</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">Int</td>
+<td style="text-align:left">&#x516C;&#x4F17;&#x53F7;&#x7C7B;&#x578B;&#xFF0C;0&#x4EE3;&#x8868;&#x8BA2;&#x9605;&#x53F7;&#xFF0C;1&#x4EE3;&#x8868;&#x7531;&#x5386;&#x53F2;&#x8001;&#x5E10;&#x53F7;&#x5347;&#x7EA7;&#x540E;&#x7684;&#x8BA2;&#x9605;&#x53F7;&#xFF0C;2&#x4EE3;&#x8868;&#x670D;&#x52A1;&#x53F7;</td>
+</tr>
+<tr>
+<td style="text-align:left">verify_type_info</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">Int</td>
+<td style="text-align:left">&#x6388;&#x6743;&#x65B9;&#x8BA4;&#x8BC1;&#x7C7B;&#x578B;&#xFF0C;-1&#x4EE3;&#x8868;&#x672A;&#x8BA4;&#x8BC1;&#xFF0C;0&#x4EE3;&#x8868;&#x5FAE;&#x4FE1;&#x8BA4;&#x8BC1;&#xFF0C;1&#x4EE3;&#x8868;&#x65B0;&#x6D6A;&#x5FAE;&#x535A;&#x8BA4;&#x8BC1;&#xFF0C;2&#x4EE3;&#x8868;&#x817E;&#x8BAF;&#x5FAE;&#x535A;&#x8BA4;&#x8BC1;&#xFF0C;3&#x4EE3;&#x8868;&#x5DF2;&#x8D44;&#x8D28;&#x8BA4;&#x8BC1;&#x901A;&#x8FC7;&#x4F46;&#x8FD8;&#x672A;&#x901A;&#x8FC7;&#x540D;&#x79F0;&#x8BA4;&#x8BC1;&#xFF0C;4&#x4EE3;&#x8868;&#x5DF2;&#x8D44;&#x8D28;&#x8BA4;&#x8BC1;&#x901A;&#x8FC7;&#x3001;&#x8FD8;&#x672A;&#x901A;&#x8FC7;&#x540D;&#x79F0;&#x8BA4;&#x8BC1;&#xFF0C;&#x4F46;&#x901A;&#x8FC7;&#x4E86;&#x65B0;&#x6D6A;&#x5FAE;&#x535A;&#x8BA4;&#x8BC1;&#xFF0C;5&#x4EE3;&#x8868;&#x5DF2;&#x8D44;&#x8D28;&#x8BA4;&#x8BC1;&#x901A;&#x8FC7;&#x3001;&#x8FD8;&#x672A;&#x901A;&#x8FC7;&#x540D;&#x79F0;&#x8BA4;&#x8BC1;&#xFF0C;&#x4F46;&#x901A;&#x8FC7;&#x4E86;&#x817E;&#x8BAF;&#x5FAE;&#x535A;&#x8BA4;&#x8BC1;</td>
+</tr>
+<tr>
+<td style="text-align:left">rq_create</td>
+<td style="text-align:left">&#x662F;</td>
+<td style="text-align:left">Datetime</td>
+<td style="text-align:left">&#x6388;&#x6743;&#x65F6;&#x95F4;&#xFF0C;&#x683C;&#x5F0F;yyyy-MM-dd HH:mm:ss</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x54CD;&#x5E94;&#x7ED3;&#x679C;&#x793A;&#x4F8B;</strong></p>
+<pre><code class="lang-js">{
+    <span class="hljs-string">&quot;records&quot;</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-string">&quot;pages&quot;</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-string">&quot;rows&quot;</span>: [
+        {
+            <span class="hljs-string">&quot;appid&quot;</span>: <span class="hljs-string">&quot;wx4da448cd29927cb7&quot;</span>,
+            <span class="hljs-string">&quot;nick_name&quot;</span>: <span class="hljs-string">&quot;&#x5E7F;&#x5DDE;&#x8D85;&#x8D62;&quot;</span>,
+            <span class="hljs-string">&quot;user_name&quot;</span>: <span class="hljs-string">&quot;gh_b76f77c4672e&quot;</span>,
+            <span class="hljs-string">&quot;alias&quot;</span>: <span class="hljs-string">&quot;chaoyingsoft&quot;</span>,
+            <span class="hljs-string">&quot;head_img&quot;</span>: <span class="hljs-string">&quot;http://wx.qlogo.cn/mmopen/CSFFlccWvq50C0FD5TgAp7JJe5nqpibbZ6X75EiaHgU95zJaHWYTiaEBHsHzTNRIEE3bUvNGRQ5gVAsZpCY6hZchQnE7Zwe9Etg/0&quot;</span>,
+            <span class="hljs-string">&quot;qrcode_url&quot;</span>: <span class="hljs-string">&quot;http://mmbiz.qpic.cn/mmbiz_jpg/OdJTgL8MssMvQ6n5iaNRFrrhESre1d2hFTBp2bsM6v4vM9KiacpoXa5OeaK7iaK6ESvdhVRhO7l2tvbiapfuIFxlVQ/0&quot;</span>,
+            <span class="hljs-string">&quot;service_type_info&quot;</span>: <span class="hljs-number">2</span>,
+            <span class="hljs-string">&quot;verify_type_info&quot;</span>: <span class="hljs-number">0</span>,
+            <span class="hljs-string">&quot;rq_create&quot;</span>: <span class="hljs-string">&quot;2017-05-26T15:26:33.207&quot;</span>
+        }
+    ]
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="getpreauthlink.html" class="navigation navigation-prev " aria-label="Previous page: GetPreAuthLink - 获取预授权地址">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="getmpmenu.html" class="navigation navigation-next " aria-label="Next page: GetMpMenu - 获取公众号自定菜单">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"MpList - 获取公众号列表","level":"2.2.2","depth":2,"next":{"title":"GetMpMenu - 获取公众号自定菜单","level":"2.2.3","depth":2,"path":"api/wechat/getmpmenu.md","ref":"api/wechat/getmpmenu.md","articles":[]},"previous":{"title":"GetPreAuthLink - 获取预授权地址","level":"2.2.1","depth":2,"path":"api/wechat/getpreauthlink.md","ref":"api/wechat/getpreauthlink.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-sharing"],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"api/wechat/mplist.md","mtime":"2018-08-20T02:38:29.987Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-20T07:04:37.145Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
