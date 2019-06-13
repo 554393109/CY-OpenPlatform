@@ -11,7 +11,6 @@
         "search-pro",
         "anchor-navigation-ex",
         "splitter",
-        "github",
         "sitemap",
         "tbfed-pagefooter",
         "alerts",
@@ -30,9 +29,6 @@
         "anchor-navigation-ex": {
             "multipleH1": true,
             "showLevel": true
-        },
-        "github": {
-            "url": "https://github.com/554393109"
         },
         "sitemap": {
             "hostname": "http://note.yinziqiang.com"
@@ -54,10 +50,5 @@
             "token": "9c60904a1e1bf7447f0c82db4e633b47"
         },
         "expandable-chapters": {}
-    },
-    "links": {
-        "sidebar": {
-            "作者GitHub": "https://github.com/554393109"
-        }
     }
 }
